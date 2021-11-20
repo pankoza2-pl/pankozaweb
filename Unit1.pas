@@ -56,7 +56,7 @@ end;
 
 procedure TForm1.Button5Click(Sender: TObject);
 begin
-ShowMessage('PankozaWeb 1.0 Created by pankoza in Delphi')
+ShowMessage('PankozaWeb 1.0.1 Created by pankoza in Delphi')
 end;
 
 end.

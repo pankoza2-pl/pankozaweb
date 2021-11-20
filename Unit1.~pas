@@ -15,10 +15,12 @@ type
     Button3: TButton;
     Button4: TButton;
     WebBrowser1: TWebBrowser;
+    Button5: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -50,6 +52,11 @@ end;
 procedure TForm1.Button4Click(Sender: TObject);
 begin
 WebBrowser1.Stop;
+end;
+
+procedure TForm1.Button5Click(Sender: TObject);
+begin
+ShowMessage('PankozaWeb 1.0 Created by pankoza in Delphi')
 end;
 
 end.
